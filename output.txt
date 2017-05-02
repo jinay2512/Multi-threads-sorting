@@ -1,0 +1,23 @@
+Enter Unsorted Array of length 20 :	 76 21 19 34 98 102 256 47 13 600 520 192 6 40 12 380 67 187 1 56
+
+First Sub-Array : 	76	21	19	34	98	102	256	47	13	600
+Second Sub-Array : 	520	192	6	40	12	380	67	187	1	56
+
+Run thread: Thread-0
+
+Run thread: Thread-1
+Starting thread
+Starting thread
+Thread Completed
+Thread Completed
+
+First Sorted Collection : [13, 19, 21, 34, 47, 76, 98, 102, 256, 600]
+Second Sorted Collection : [1, 6, 12, 40, 56, 67, 187, 192, 380, 520]
+
+Merged Unsorted Collection: [13, 19, 21, 34, 47, 76, 98, 102, 256, 600, 1, 6, 12, 40, 56, 67, 187, 192, 380, 520]
+
+Run thread: Thread-2
+Starting thread
+Thread Completed
+
+Merged Sorted Collection : [1, 6, 12, 13, 19, 21, 34, 40, 47, 56, 67, 76, 98, 102, 187, 192, 256, 380, 520, 600]
